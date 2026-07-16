@@ -26,6 +26,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "id_ID",
     url: "https://blog.piccreativespace.id",
+    images: [
+      {
+        url: "https://blog.piccreativespace.id/og-default.png",
+        width: 1200,
+        height: 630,
+        alt: "Blog PIC Creative Space",
+      },
+    ],
   },
   robots: {
     index: true,
@@ -45,6 +53,8 @@ export default function RootLayout({
           href="https://api.fontshare.com/css?f[]=clash-display@400,500,600,700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
       <body className="min-h-full flex flex-col">
         <Header />

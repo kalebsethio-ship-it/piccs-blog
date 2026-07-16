@@ -23,6 +23,14 @@ export async function generateMetadata({ params }: Props) {
     openGraph: {
       title: article.meta.title,
       description: article.meta.description,
+      images: [
+        {
+          url: "https://blog.piccreativespace.id/og-article.png",
+          width: 1200,
+          height: 630,
+          alt: article.meta.title,
+        },
+      ],
     },
   };
 }
