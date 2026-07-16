@@ -11,7 +11,6 @@ export default function Header() {
           <div className="flex items-center gap-3">
             <a
               href="https://piccreativespace.id"
-              target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
@@ -31,7 +30,6 @@ export default function Header() {
           {/* Right — PIC Creative Space button (like BOOK NOW on main site) */}
           <a
             href="https://piccreativespace.id"
-            target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold tracking-wide text-piccs-black bg-piccs-neon rounded-lg hover:bg-piccs-neon-dark transition-all shadow-lg shadow-piccs-neon/20"
           >
