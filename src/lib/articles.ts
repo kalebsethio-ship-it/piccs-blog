@@ -30,7 +30,7 @@ export function getAllArticles(): ArticleMeta[] {
       date: data.date || '',
       tags: Array.isArray(data.tags) ? data.tags : [],
       readingTime: calculateReadingTime(raw),
-      image: data.image || null,
+      image: data.image || data.featured_image || null,
     };
   });
 
@@ -55,7 +55,7 @@ export function getArticleBySlug(slug: string): { meta: ArticleMeta; content: st
       date: data.date || '',
       tags: Array.isArray(data.tags) ? data.tags : [],
       readingTime: calculateReadingTime(content),
-      image: data.image || null,
+      image: data.image || data.featured_image || null,
     },
     content,
   };
