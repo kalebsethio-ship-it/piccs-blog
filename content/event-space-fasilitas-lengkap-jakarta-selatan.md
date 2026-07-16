@@ -46,7 +46,7 @@ Nah, di PIC Creative Space, semua ruangan udah dilengkapi fasilitas penunjang ya
 - ✅ Keyboard & drum
 - ✅ Internet kencang
 
-Harganya? **Rp 1.200.000 per jam** — worth banget buat kapasitas dan fasilitas yang didapet.
+Harganya? **Rp 1.900.000 per jam** — worth banget buat kapasitas dan fasilitas yang didapet.
 
 ---
 
@@ -70,7 +70,7 @@ Butuh ruangan yang lebih **intimate** dan cozy? **The Dwelling** ada di lantai m
 - ✅ Internet kencang
 - ✅ Air minum gratis
 
-Harga sewa **Rp 500.000 per jam** — pas buat acara yang butuh suasana hangat dan privat.
+Harga sewa **Rp 800.000 per jam** — pas buat acara yang butuh suasana hangat dan privat.
 
 ---
 
@@ -98,7 +98,10 @@ Dua ruangan kecil yang letaknya bersebelahan dengan KRYO Cafestore. Bisa dipakai
 - ✅ Internet kencang
 - ✅ LED TV (di The Light)
 
-Harga **Rp 300.000 per 2 jam** per ruangan, atau **Rp 500.000 per 2 jam** kalau digabung.
+Harga sewanya:
+- **The Salt:** Rp 500.000/jam
+- **The Light:** Rp 550.000/jam
+- **Salt & Light (gabung):** Rp 750.000/jam
 
 ---
 
