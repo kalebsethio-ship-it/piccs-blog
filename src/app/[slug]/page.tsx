@@ -37,8 +37,40 @@ export default async function ArticlePage({ params }: Props) {
 
   const { meta, content } = article;
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: meta.title,
+    description: meta.description,
+    datePublished: meta.date,
+    dateModified: meta.date,
+    author: {
+      "@type": "Organization",
+      name: "PIC Creative Space",
+      url: "https://piccreativespace.id",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "PIC Creative Space",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://blog.piccreativespace.id/logo-piccs-white.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://blog.piccreativespace.id/${slug}`,
+    },
+  };
+
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Back Link */}
       <Link
         href="/"
