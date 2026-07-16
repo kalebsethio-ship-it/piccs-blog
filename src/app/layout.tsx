@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     url: "https://blog.piccreativespace.id",
     images: [
       {
-        url: "https://blog.piccreativespace.id/og-default.png",
-        width: 1200,
-        height: 630,
-        alt: "Blog PIC Creative Space",
+        url: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png",
+        width: 1024,
+        height: 682,
+        alt: "PIC Creative Space — The Sanctuary",
       },
     ],
   },

@@ -25,9 +25,9 @@ export async function generateMetadata({ params }: Props) {
       description: article.meta.description,
       images: [
         {
-          url: "https://blog.piccreativespace.id/og-article.png",
-          width: 1200,
-          height: 630,
+          url: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png",
+          width: 1024,
+          height: 682,
           alt: article.meta.title,
         },
       ],
