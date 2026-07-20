@@ -3,7 +3,7 @@ title: "5 Ide Gathering Seru di Jakarta — Dari Workshop Sampe Nobar"
 description: "Bosan gathering di cafe itu-itu aja? Ini 5 ide gathering seru di Jakarta yang bisa kamu coba — dari workshop kreatif, nonton bareng, sampai karaoke party."
 date: "14 Jul 2026"
 tags: ["Gathering", "Jakarta", "Event", "Komunitas", "Inspirasi"]
-image: ""
+image: /thumbs/ide-gathering-seru-jakarta.jpg
 ---
 
 Gathering bareng temen, komunitas, atau tim kantor seringkali bingung mau ngapain. Cafe udah biasa, mall tiap minggu, dan tempat wisata macet. Nah, ini 5 ide gathering seru yang bisa kamu coba di **event space Jakarta**.

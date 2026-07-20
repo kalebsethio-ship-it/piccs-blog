@@ -3,7 +3,7 @@ title: "Budget Friendly Event Venue di Jakarta: Tips Sewa Tanpa Bikin Kantong Bo
 description: "Cari venue event di Jakarta tapi budget terbatas? Simak tips sewa event space murah tanpa mengorbankan kualitas dan kenyamanan acara kamu."
 date: "12 Jul 2026"
 tags: ["Budget", "Tips", "Venue Murah", "Jakarta"]
-image: ""
+image: /thumbs/budget-friendly-venue-jakarta.jpg
 ---
 
 Mau bikin acara di Jakarta tapi budget terbatas? Tenang, **venue murah dan bagus** di Jakarta itu ada kok! Kuncinya ada di strategi — bukan cuma soal harga termurah.

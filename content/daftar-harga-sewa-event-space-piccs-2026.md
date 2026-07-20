@@ -3,8 +3,8 @@ title: "Daftar Harga Sewa Event Space PIC Creative Space Jakarta 2026 — The Sa
 description: "Update Juli 2026: cek harga sewa PIC Creative Space untuk The Sanctuary, The Dwelling, The Salt & Light beserta kapasitas, fasilitas, dan tips hemat booking event."
 date: "2026-07-18"
 tags: ["Harga", "Event Space", "Jakarta Selatan", "Venue", "Booking"]
-image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
-featured_image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
+image: /thumbs/daftar-harga-sewa-event-space-piccs-2026.jpg
+featured_image: /thumbs/daftar-harga-sewa-event-space-piccs-2026.jpg
 canonical: "https://piccreativespace.id/detail-harga/"
 ---
 
@@ -21,7 +21,6 @@ PIC Creative Space memiliki beberapa kelebihan yang membuat event berjalan lebih
 - **Tiga pilihan ruangan** sesuai ukuran acara dan jumlah tamu
 - **Fasilitas sound system + proyektor** siap pakai di ruang utama
 - **Lokasi strategis** di Tebet, Casablanca — dekat tol dan transportasi umum
-- **Operasional 24 jam**, jadi kamu bisa sesuaikan waktu acara
 - **Survey wajib satu kali** sebelum booking untuk memastikan kebutuhanmu
 - **Support team yang responsif** untuk kendala teknis dan administrasi
 
@@ -85,7 +84,7 @@ Berikut tips sebelum kamu booking event space di PIC Creative Space:
 1. **Survey lebih dulu** — Kunjungi venue untuk yakin suasana dan kapasitas
 2. **Siapkan timeline** — Pastikan kebutuhan ruang dan waktu pas agar tidak overtime
 3. **Diskusikan kebutuhan teknis** — Tim marketing akan bantu sesuaikan alat event
-4. **Konfirmasi deposit** — Pembayaran DP 50% untuk pemesanan
+4. **Pembayaran setelah semuanya selesai dan fix** — lunas sesuai kesepakatan setelah finalisasi kebutuhan acara
 5. **Technical Meeting** dilakukan sehari sebelum acara untuk sinkronisasi tim
 6. **Cek regulasi venue** — Dilarang merokok dan hanya boleh pakai minuman dari KRYO
 
@@ -99,7 +98,7 @@ Memahami harga event space adalah langkah awal strategis. Setiap rupiah yang dih
 Harga biasanya sudah final, tapi untuk booking reguler kamu bisa menanyakan paket khusus atau diskon volume.
 
 **Apa yang dibutuhkan untuk booking?**
-Cukup survey, confirm tanggal, lalu bayar DP 50%. Setelah itu kamu bisa lanjut ke administrasi penuh.
+Survey dan konfirmasi tanggal. Pembayaran dilakukan setelah semuanya selesai dan fix sesuai kesepakatan.
 
 **Bagaimana cara booking?**
 Kirim pesan ke **[WA PICCS](https://wa.me/62817731137)** atau email info@piccreativespace.id, dan tim kami akan bantu penawaran.
@@ -108,6 +107,10 @@ Kirim pesan ke **[WA PICCS](https://wa.me/62817731137)** atau email info@piccrea
 
 ## Siap Booking Event Space di Tebet?
 
-Apakah kamu ingin sewa event space di Tebet dengan harga transparan dan fasilitas lengkap? Tinggal tentukan acaramu, pilih ruangan, dan **booking sekarang** via WhatsApp. Tim PICCS siap bantu kamu dari survey sampai hari-H untuk event yang berkesan.
+Apakah kamu ingin sewa event space di Tebet dengan harga transparan dan fasilitas lengkap? Tinggal tentukan acaramu, pilih ruangan, dan hubungi tim PICCS untuk diskusi lebih lanjut.
+
+---
+
+### DOYOUNEEDASPACE?
 
 *Butuh bantuan merencanakan event? Hubungi kami di [WA](https://wa.me/62817731137) atau email info@piccreativespace.id*
