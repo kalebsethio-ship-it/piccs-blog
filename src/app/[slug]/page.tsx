@@ -16,21 +16,30 @@ export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
   const article = getArticleBySlug(slug);
   if (!article) return { title: "Not Found" };
+  const meta = article.meta;
+  const image = (meta as any).image || (meta as any).featured_image || "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png";
 
   return {
-    title: article.meta.title,
-    description: article.meta.description,
+    title: meta.title,
+    description: meta.description,
     openGraph: {
-      title: article.meta.title,
-      description: article.meta.description,
+      title: meta.title,
+      description: meta.description,
       images: [
         {
-          url: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png",
-          width: 1024,
-          height: 682,
-          alt: article.meta.title,
+          url: image,
+          width: 1200,
+          height: 630,
+          alt: meta.title,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: meta.title,
+      description: meta.description,
+      images: [image],
+      imageAlt: meta.title,
     },
   };
 }
@@ -92,8 +101,19 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* Article Header */}
       <header className="mb-10">
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2 mb-4">
+        {/* Featured Image */}
+      {(meta as any).image || (meta as any).featured_image ? (
+        <div className="mb-10 rounded-2xl overflow-hidden border border-piccs-border/50">
+          <img
+            src={(meta as any).image || (meta as any).featured_image}
+            alt={meta.title}
+            className="w-full h-64 sm:h-80 md:h-96 object-cover"
+          />
+        </div>
+      ) : null}
+
+      {/* Tags */}
+      <div className="flex flex-wrap gap-2 mb-4">
           {meta.tags.map((tag) => (
             <span
               key={tag}
