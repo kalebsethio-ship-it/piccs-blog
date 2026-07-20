@@ -3,7 +3,7 @@ title: "Event Space Jakarta Selatan: Panduan Lengkap Memilih Venue"
 description: "Cari event space di Jakarta Selatan? Simak panduan lengkap memilih venue untuk seminar, gathering, wedding, dan berbagai acara lainnya di kawasan Tebet, Casablanca, dan sekitarnya."
 date: "16 Jul 2026"
 tags: ["Event Space", "Jakarta Selatan", "Venue", "Panduan"]
-image: /thumbs/event-space-jakarta-selatan.jpg
+image: /static/thumbs/event-space-jakarta-selatan.jpg
 ---
 
 Mencari **event space di Jakarta Selatan** yang pas buat acara kamu? Dengan banyaknya pilihan venue, memilih tempat yang tepat bisa jadi tantangan tersendiri. Artikel ini bakal bantu kamu nemuin event space ideal berdasarkan jenis acara, kapasitas, budget, dan lokasi.
