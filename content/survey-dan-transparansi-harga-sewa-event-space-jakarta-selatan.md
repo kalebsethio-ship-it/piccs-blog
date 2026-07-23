@@ -1,6 +1,6 @@
 ---
 title: "Survey dan Transparansi Harga Sewa Event Space Jakarta Selatan — Tips Before Booking 2026"
-description: "Cermin survey venue dan transparansi harga sewa event space di Jakarta Selatan, lengkap dengan rincian DP, overtime, dan tips menghindari biaya tak terduga."
+description: "Panduan survey dan transparansi harga sewa event space di Jakarta Selatan, lengkap dengan rincian pembayaran dan overtime."
 date: "2026-07-21"
 tags: ["Survey", "Harga", "Event Space", "Jakarta Selatan", "Booking Tips"]
 image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
@@ -37,7 +37,7 @@ Biar planning budget lebih mudah, berikut harga terbaru per Juli 2026:
 | The Light | 8 pax | Rp 550.000 |
 | Salt & Light | 16 pax | Rp 750.000 |
 
-Semua harga sudah final. Overtime dikenakan tarif normal per jam dari menit pertama. Promo tidak digabung dengan paket tertentu, jadi tanyakan opsi termurah sebelum booking.
+Semua harga sudah final. Kalau acaranya melebihi durasi yang disepakati, overtime dihitung per jam sesuai tarif normal dari menit pertama.
 
 ---
 
@@ -54,15 +54,14 @@ Bingung cara hitung estimasi? Cek [daftar harga sewa event space PICCS 2026](/da
 
 ---
 
-## Overtime yang Perlu Diwaspadai
+## Overtime
 
-Acara yang lancar seringkali melebihi timeline. Di PIC Creative Space, overtime dihitung **real time per jam** dari menit pertama melebihi waktu yang disepakati. Tips menghindari overtime:
+Di PIC Creative Space, overtime dihitung per jam sesuai tarif normal dari menit pertama melebihi durasi yang disepakati. Jadi kamu hanya bayar sesuai harga standar ruangan yang dipakai.
 
+Tips yang bisa membantu:
 - Siapkan timeline detail dari awal
 - Sediakan buffer ±15–30 menit jika ada delay
 - Pastikan cleaning time sudah termasuk dalam block waktu
-
-Kalau kamu pakai The Sanctuary sampai malam hari, pastikan juga soal akses 24 jam dan regulasi venue lainnya.
 
 ---
 
@@ -73,7 +72,7 @@ Berikut checklist sebelum kamu pesan venue:
 - **Survey dulu:** wajib datang, GRATIS, tanpa komitmen
 - **Tulis timeline:** load in, event, load out
 - **Tanya kebutuhan teknis:** sound system, lighting, proyektor
-- **Konfirmasi harga final dan overtime policy**
+- **Konfirmasi harga final**
 - **Cek regulasi:** dilarang merokok, hanya minuman KRYO yang boleh
 
 Kalau butuh opsi venue lain, baca artikel [ide gathering seru di Jakarta](/ide-gathering-seru-jakarta) untuk memformat ide acaramu.
