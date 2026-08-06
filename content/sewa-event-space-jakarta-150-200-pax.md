@@ -3,12 +3,11 @@ title: "Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib"
 description: "Punya acara 150-200 pax? Simak tips sewa event space Jakarta yang cukup besar, dari kapasitas, harga Juli 2026, loading, survey, sampai paket inclusive."
 date: "2026-07-30"
 tags: ["Event Space", "Jakarta Selatan", "Corporate Event", "Venue", "PICCS"]
-image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
-featured_image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
+image: /static/thumbs/sewa-event-space-jakarta-150-200-pax.jpg
 canonical: "https://piccreativespace.id/venue"
 ---
 
-# Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib
+## Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib
 
 Punya acara dengan jumlah tamu sekitar **150-200 orang**? Baik annual dinner perusahaan, conference, launching besar, atau nonton bareng konser — memilih venue yang **cukup besar dan sesuai standar** jadi kunci utama. Event space Jakarta yang bikin kecewa itu kalau ruang terlalu sempit, fasilitas teknis kurang, atau akses parkir tidak memadai. Kali ini, kita uraikan hal-hal wajib diperhatikan sebelum memilih venue kapasitas besar, lengkap dengan harga Juli 2026 dan rekomendasi **[PIC Creative Space](https://piccreativespace.id)** di Tebet, Casablanca.
 

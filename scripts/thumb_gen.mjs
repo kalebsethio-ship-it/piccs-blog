@@ -63,6 +63,8 @@ async function pickPhotoFor(slug, title, tags) {
     }
   }
   if (best && bestScore > 0.05 && best.path) {
+    const abs = best.path;
+    if (fs.existsSync(abs)) return abs;
     let src = best.path;
     if (!src.startsWith('http')) {
       const rel = path.join(best.folder || '', src).split('piccs-photos/').pop();
@@ -75,7 +77,12 @@ async function pickPhotoFor(slug, title, tags) {
 
 async function makeThumb(sourceUrl, outPath) {
   try {
-    const src = await fetchBuffer(sourceUrl);
+    let src;
+    if (sourceUrl.startsWith('http')) {
+      src = await fetchBuffer(sourceUrl);
+    } else {
+      src = fs.readFileSync(sourceUrl);
+    }
     const svg = Buffer.from(
       `<svg width="1200" height="630">
         <rect width="1200" height="630" fill="rgba(0,0,0,0)"/>
@@ -102,15 +109,32 @@ async function makeThumb(sourceUrl, outPath) {
     { slug: 'daftar-harga-sewa-event-space-piccs-2026', title: 'Daftar Harga Sewa Event Space PIC Creative Space Jakarta 2026 — The Sanctuary, The Dwelling, dan The Salt & Light', tags: ['Harga','Event Space','Jakarta Selatan','Venue','Booking'] },
     { slug: 'event-space-fasilitas-lengkap-jakarta-selatan', title: 'Event Space Fasilitas Terlengkap di Jakarta Selatan', tags: ['Event Space','Fasilitas','Jakarta Selatan','The Sanctuary','The Dwelling','Salt & Light'] },
     { slug: 'event-space-jakarta-selatan', title: 'Event Space Jakarta Selatan: Panduan Lengkap Memilih Venue', tags: ['Event Space','Jakarta Selatan','Venue','Panduan'] },
+    { slug: 'harga-kapasitas-event-space-jakarta-2026-breakdown-biaya-gathering-launching-karaoke', title: 'Harga & Kapasitas Event Space Jakarta 2026: Breakdown Biaya Sewa untuk Gathering, Launching, dan Karaoke', tags: ['Harga','Kapasitas','Event Space','Jakarta','Gathering','Launching','Karaoke'] },
     { slug: 'ide-gathering-seru-jakarta', title: '5 Ide Gathering Seru di Jakarta — Dari Workshop Sampe Nobar', tags: ['Gathering','Jakarta','Event','Komunitas','Inspirasi'] },
     { slug: 'meeting-room-tebet', title: 'Meeting Room di Tebet untuk Rapat Kantor & Diskusi Tim', tags: ['Meeting Room','Tebet','Jakarta Selatan','Diskusi Tim','Rapat'] },
+    { slug: 'pilih-ruang-event-jakarta-sesuai-format', title: 'Workshop vs Private Party vs Podcast: Pilih Ruang Event di Jakarta Sesuai Format Acaramu', tags: ['Event Space','Jakarta Selatan','Workshop','Private Party','Podcast','Venue'] },
+    { slug: 'policy-fb-event-space-jakarta', title: 'Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Harus Pakai Partner?', tags: ['F&B','Event Space','Jakarta','Catering','Booking Tips'] },
+    { slug: 'sewa-event-space-jakarta-150-200-pax', title: 'Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib', tags: ['Event Space','Jakarta Selatan','Corporate Event','Venue','PICCS'] },
+    { slug: 'survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan', title: 'Survey dan Transparansi Harga Sewa Event Space Jakarta Selatan — Tips Before Booking 2026', tags: ['Survey','Harga','Event Space','Jakarta Selatan','Booking Tips'] },
   ];
 
   for (const a of articles) {
-    const url = await pickPhotoFor(a.slug, a.title, a.tags);
-    const out = path.join(THUMBS, `${a.slug}.jpg`);
-    await makeThumb(url, out);
-    const stat = fs.statSync(out);
-    console.log('OK', a.slug, stat.size, 'src=', url);
+    try {
+      const url = await pickPhotoFor(a.slug, a.title, a.tags);
+      const out = path.join(THUMBS, `${a.slug}.jpg`);
+      await makeThumb(url, out);
+      const stat = fs.statSync(out);
+      console.log('OK', a.slug, stat.size, 'src=', url);
+    } catch (e) {
+      console.warn('FAIL', a.slug, e.message);
+      try {
+        const fallback = path.join(THUMBS, 'event-space-jakarta-selatan.jpg');
+        const out = path.join(THUMBS, `${a.slug}.jpg`);
+        if (fs.existsSync(fallback)) fs.copyFileSync(fallback, out);
+        console.log('FALLBACK', a.slug, '-> event-space-jakarta-selatan.jpg');
+      } catch (e2) {
+        console.warn('FALLBACK_FAIL', a.slug, e2.message);
+      }
+    }
   }
 })();

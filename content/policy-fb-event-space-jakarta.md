@@ -3,12 +3,11 @@ title: "Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Ha
 description: "Panduan policy F&B event space Jakarta Juli 2026: boleh bawa catering dari luar, KRYO coffee/tea wajib, tips koordinasi makanan & minum sebelum booking venue."
 date: "2026-08-06"
 tags: ["F&B", "Event Space", "Jakarta", "Catering", "Booking Tips"]
-image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
-featured_image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
+image: /static/thumbs/policy-fb-event-space-jakarta.jpg
 canonical: "https://piccreativespace.id/policy-fb-event-space-jakarta/"
 ---
 
-# Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Harus Pakai Partner?
+## Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Harus Pakai Partner?
 
 Siap-siap booking **event space di Jakarta**, tapi bingung soal **makanan dan minuman**? 
 Boleh bawa catering dari luar? Ada minatnya sendiri? Atau harus pakai partner resmi venue?

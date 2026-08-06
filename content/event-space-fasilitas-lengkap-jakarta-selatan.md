@@ -6,6 +6,7 @@ category: "info-venue"
 tags: ["Event Space", "Fasilitas", "Jakarta Selatan", "The Sanctuary", "The Dwelling", "Salt & Light"]
 excerpt: "Mau sewa event space di Jakarta Selatan dengan fasilitas lengkap? PIC Creative Space punya 3 ruangan — The Sanctuary, The Dwelling, dan The Salt & Light — dengan sound system, proyektor, dan harga yang bersahabat."
 canonical: "https://piccreativespace.id/event-space-fasilitas-lengkap-jakarta-selatan/"
+image: /static/thumbs/event-space-fasilitas-lengkap-jakarta-selatan.jpg
 featured_image: /static/thumbs/event-space-fasilitas-lengkap-jakarta-selatan.jpg
 ---
 
@@ -25,7 +26,7 @@ Nah, di PIC Creative Space, semua ruangan udah dilengkapi fasilitas penunjang ya
 
 ## 1. The Sanctuary — Ruangan Utama Kapasitas Besar
 
-![The Sanctuary at PIC Creative Space](https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png)
+![The Sanctuary at PIC Creative Space](/static/thumbs/event-space-fasilitas-lengkap-jakarta-selatan.jpg)
 *The Sanctuary — ruangan utama dengan kapasitas hingga 150 orang*
 
 **The Sanctuary** adalah ruangan andalan di PIC Creative Space. Dengan luas **16.45 × 9.5 meter (144.75m²)**, ruangan ini muat sampe **150 orang** dan cocok buat berbagai event:
@@ -52,7 +53,7 @@ Harganya? **Rp 1.900.000 per jam** — worth banget buat kapasitas dan fasilitas
 
 ## 2. The Dwelling — Ruang Intim buat 30 Orang
 
-![The Dwelling at PIC Creative Space](https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3322-1024x683.png)
+![The Dwelling at PIC Creative Space](/static/thumbs/event-space-fasilitas-lengkap-jakarta-selatan.jpg)
 *The Dwelling — cozy dan intimate buat gathering kecil*
 
 Butuh ruangan yang lebih **intimate** dan cozy? **The Dwelling** ada di lantai mezzanine dengan luas **13.41 × 5.80 meter (67.32m²)**. Cocok buat:
@@ -76,7 +77,7 @@ Harga sewa **Rp 800.000 per jam** — pas buat acara yang butuh suasana hangat d
 
 ## 3. The Salt & Light — Fleksibel buat Meeting & Diskusi
 
-![The Salt & Light at PIC Creative Space](https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3681-1024x683.png)
+![The Salt & Light at PIC Creative Space](/static/thumbs/event-space-fasilitas-lengkap-jakarta-selatan.jpg)
 *The Salt & Light — dua ruangan yang bisa digabung atau dipisah*
 
 Dua ruangan kecil yang letaknya bersebelahan dengan KRYO Cafestore. Bisa dipakai terpisah atau digabung jadi satu:
