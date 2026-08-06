@@ -53,9 +53,12 @@ async function pickPhotoFor(slug, title, tags) {
     fs.readFileSync(path.join(process.cwd(), 'scripts', 'photos_cache.json'), 'utf8')
   );
 
+  const locals = rows.filter(p => p.path && fs.existsSync(p.path));
+  const pool = locals.length ? locals : rows;
+
   let best = null;
   let bestScore = -1;
-  for (const p of rows) {
+  for (const p of pool) {
     const s = scorePhoto(p, articleTokens);
     if (s > bestScore) {
       bestScore = s;
@@ -63,15 +66,22 @@ async function pickPhotoFor(slug, title, tags) {
     }
   }
   if (best && bestScore > 0.05 && best.path) {
-    const abs = best.path;
-    if (fs.existsSync(abs)) return abs;
-    let src = best.path;
-    if (!src.startsWith('http')) {
-      const rel = path.join(best.folder || '', src).split('piccs-photos/').pop();
-      src = `https://photos.piccreativespace.id/${encodeURIComponent(rel)}`;
-    }
-    return src;
+    return best.path;
   }
+
+  // explicit per-slug local fallbacks / dedup overrides
+  const slugMap = {
+    'harga-kapasitas-event-space-jakarta-2026-breakdown-biaya-gathering-launching-karaoke': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/_MG_0563.JPG',
+    'policy-fb-event-space-jakarta': '/home/kalebooo/piccs-photos/F&B CATERING/_MG_6726.JPG',
+    'sewa-event-space-jakarta-150-200-pax': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/2025/_MG_8590.JPG',
+    'survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/_MG_7304.JPG',
+    'budget-friendly-venue-jakarta': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/2025/_MG_8696.JPG',
+    'pilih-ruang-event-jakarta-sesuai-format': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/2025/_MG_8590.JPG',
+    'event-space-fasilitas-lengkap-jakarta-selatan': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/_MG_9401.JPG',
+    'ide-gathering-seru-jakarta': '/home/kalebooo/piccs-photos/DEKOR WEDDING 2025/_MG_1074.JPG',
+  };
+  if (slugMap[slug] && fs.existsSync(slugMap[slug])) return slugMap[slug];
+
   return FALLBACKS[slug] || FALLBACK_VENUE;
 }
 
