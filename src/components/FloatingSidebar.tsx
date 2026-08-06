@@ -1,6 +1,6 @@
 export default function FloatingSidebar() {
   return (
-    <div className="fixed right-4 sm:right-6 top-1/2 -translate-y-1/2 z-40 flex flex-col gap-3">
+    <div className="fixed right-4 sm:right-6 bottom-4 sm:bottom-6 z-40 flex flex-col gap-3">
       {/* WhatsApp */}
       <a
         href="https://wa.me/62817731137"
