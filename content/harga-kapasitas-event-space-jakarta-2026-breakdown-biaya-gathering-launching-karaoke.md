@@ -7,7 +7,6 @@ image: /static/thumbs/harga-kapasitas-event-space-jakarta-2026-breakdown-biaya-g
 canonical: "https://piccreativespace.id/harga-kapasitas-event-space-jakarta-2026/"
 ---
 
-## Harga & Kapasitas Event Space Jakarta 2026: Breakdown Biaya Sewa untuk Gathering, Launching, dan Karaoke
 
 Pertanyaan paling sering dari calon penyewa event space? **Harga dan kapasitas**. 
 Bukan cuma sekedar angka — kamu butuh tahu ruang yang **cocok**, biaya yang **transparan**, 

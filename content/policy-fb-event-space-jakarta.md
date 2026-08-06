@@ -7,7 +7,6 @@ image: /static/thumbs/policy-fb-event-space-jakarta.jpg
 canonical: "https://piccreativespace.id/policy-fb-event-space-jakarta/"
 ---
 
-## Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Harus Pakai Partner?
 
 Siap-siap booking **event space di Jakarta**, tapi bingung soal **makanan dan minuman**? 
 Boleh bawa catering dari luar? Ada minatnya sendiri? Atau harus pakai partner resmi venue?

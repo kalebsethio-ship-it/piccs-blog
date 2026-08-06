@@ -7,7 +7,6 @@ image: /static/thumbs/pilih-ruang-event-jakarta-sesuai-format.jpg
 canonical: "https://piccreativespace.id/venue"
 ---
 
-## Workshop vs Private Party vs Podcast: Pilih Ruang Event di Jakarta Sesuai Format Acaramu
 
 Mau bikin **workshop**, **private party**, atau **podcast recording** di Jakarta Selatan? Pilihan ruang event bisa bikin pusing, apalagi kalau kamu baru pertama kali booking venue. Format acara kamu jadi kunci utama — bukan cuma kapasitas, tapi juga fasilitas, atmosfer, dan budget.
 
