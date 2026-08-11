@@ -3,12 +3,10 @@ title: "Event Space untuk Pentas Seni Anak: Panduan Menyelenggarakan Pentas & Pe
 description: "Panduan memilih event space untuk pentas seni anak di Jakarta: kriteria aman, fasilitas panggung & sound system, kapasitas, dan tips Persiapan acara."
 date: "2026-08-11"
 tags: ["Event Anak", "Pentas Seni", "Venue Jakarta", "Keluarga", "Booking Tips"]
-image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
-featured_image: "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png"
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9229.JPG"
+featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9229.JPG"
 canonical: "https://piccreativespace.id/event-space-pentas-seni-anak-jakarta/"
 ---
-
-# Event Space untuk Pentas Seni Anak: Panduan Menyelenggarakan Pentas & Pertunjukan Anak di Jakarta
 
 Mau adakan **pentas seni anak** di Jakarta tapi bingung cari venue yang sesuai? 
 
