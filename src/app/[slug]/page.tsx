@@ -104,13 +104,14 @@ export default async function ArticlePage({ params }: Props) {
       <header className="mb-10">
         {/* Featured Image */}
       {(meta as any).image || (meta as any).featured_image ? (
-        <div className="mb-10 rounded-2xl overflow-hidden border border-piccs-border/50">
+        <div className="mb-10 rounded-2xl overflow-hidden border border-piccs-border/50 relative w-full h-64 sm:h-80 md:h-96">
           <Image
             src={(meta as any).image || (meta as any).featured_image}
             alt={meta.title}
-            width={1200}
-            height={630}
-            className="w-full h-64 sm:h-80 md:h-96 object-cover"
+            fill
+            sizes="100vw"
+            className="object-cover"
+            unoptimized
           />
         </div>
       ) : null}
