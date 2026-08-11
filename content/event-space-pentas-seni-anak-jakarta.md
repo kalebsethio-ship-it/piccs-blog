@@ -90,7 +90,7 @@ Penting untuk memilih venue yang sesuai dengan jumlah peserta dan kebutuhan tekn
 
 [PIC Creative Space](https://piccreativespace.id) di Tebet, Jakarta Selatan, menyediakan ruang fleksibel untuk pentas anak dengan fasilitas lengkap. Survey **wajib 1x** sebelum booking — dan **GRATIS**.
 
-Pembayaran dilakukan setelah semua fix. Perlu diingat bahwa venue hanya menyediakan **minuman kopi/tea dari KRYO Cafestore**, dan **dilarang merokok/vaping** dengan denda Rp 500.000 per orang.
+Pembayaran dilakukan setelah semua fix. Perlu diingat bahwa venue hanya menyediakan **minuman kopi/tea dari KRYO Cafestore**, dan **dilarang merokok/vaping**.
 
 **Hubungi tim PICCS sekarang untuk info harga terbaru Juli 2026!**
 
