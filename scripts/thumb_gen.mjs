@@ -126,6 +126,7 @@ async function makeThumb(sourceUrl, outPath) {
     { slug: 'policy-fb-event-space-jakarta', title: 'Policy F&B di Event Space Jakarta: Boleh Bawa Catering dari Luar atau Harus Pakai Partner?', tags: ['F&B','Event Space','Jakarta','Catering','Booking Tips'] },
     { slug: 'sewa-event-space-jakarta-150-200-pax', title: 'Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib', tags: ['Event Space','Jakarta Selatan','Corporate Event','Venue','PICCS'] },
     { slug: 'survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan', title: 'Survey dan Transparansi Harga Sewa Event Space Jakarta Selatan — Tips Before Booking 2026', tags: ['Survey','Harga','Event Space','Jakarta Selatan','Booking Tips'] },
+    { slug: 'panduan-sewa-event-space-dies-natalis-kampus-jakarta-selatan', title: 'Panduan Sewa Event Space untuk Dies Natalis / Acara Kampus di Jakarta Selatan', tags: ['Dies Natalis','Event Kampus','Jakarta Selatan','The Sanctuary','Campus Event'] },
   ];
 
   for (const a of articles) {
