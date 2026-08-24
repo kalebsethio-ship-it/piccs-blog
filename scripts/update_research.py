@@ -4,7 +4,7 @@ import os
 
 url = os.environ.get("SUPABASE_URL", "https://owazkhgmoxtadoaytkpo.supabase.co")
 key = os.environ.get("SUPABASE_SERVICE_KEY", "")
-endpoint = f"{url}/rest/v1/piccs_research?id=eq.158"
+endpoint = f"{url}/rest/v1/piccs_research?id=eq.163"
 data = json.dumps({"status": "written"}).encode()
 req = urllib.request.Request(endpoint, data=data, headers={
     "apikey": key,
