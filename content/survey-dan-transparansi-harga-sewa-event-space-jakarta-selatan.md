@@ -3,7 +3,7 @@ title: "Survey dan Transparansi Harga Sewa Event Space Jakarta Selatan — Tips 
 description: "Panduan survey dan transparansi harga sewa event space di Jakarta Selatan, lengkap dengan rincian pembayaran dan overtime."
 date: "2026-07-21"
 tags: ["Survey", "Harga", "Event Space", "Jakarta Selatan", "Booking Tips"]
-image: /static/thumbs/survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan.jpg
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
 canonical: "https://piccreativespace.id/survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan/"
 ---
 

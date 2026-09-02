@@ -3,7 +3,7 @@ title: "Venue Gathering Jakarta Selatan: Trend 2026 yang Wajib Diperhatikan"
 description: "Tahun 2026 venue gathering di Jakarta Selatan makin beragam — dari hybrid event, intimate setting, hingga after-office hangout. Simak tren terbaru dan rekomendasi PIC Creative Space."
 date: "2026-08-13"
 tags: ["Gathering", "Jakarta Selatan", "Event Space", "Trend 2026", "Venue"]
-image: "/static/thumbs/venue-gathering-jakarta-selatan-trend-2026.jpg"
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9229.JPG"
 ---
 
 Gathering di Jakarta Selatan bukan cuma soal tempat duduk dan minum kopi. Tahun 2026 ini, tren venue gathering lebih fokus ke **pengalaman, fleksibilitas, dan suasana yang Instagrammable**. Baik untuk tim kantor, komunitas, maupun acara keluarga, venue yang tepat jadi kunci utama.

@@ -3,7 +3,7 @@ title: "Workshop vs Private Party vs Podcast: Pilih Ruang Event di Jakarta Sesua
 description: "Pilih ruang event Jakarta yang pas untuk workshop, private party, atau podcast. Lihat tabel mapping room, harga Juli 2026, kapasitas, dan tips hemat booking."
 date: "2026-07-28"
 tags: ["Event Space", "Jakarta Selatan", "Workshop", "Private Party", "Podcast", "Venue"]
-image: /static/thumbs/pilih-ruang-event-jakarta-sesuai-format.jpg
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_3944.JPG"
 canonical: "https://piccreativespace.id/venue"
 ---
 

@@ -3,8 +3,8 @@ title: "Meeting Room di Tebet untuk Rapat Kantor & Diskusi Tim"
 description: "Mau tempat meeting kecil di Tebet yang nyaman dan murah? Cek harga sewa meeting room di PIC Creative Space untuk 8–16 pax, lengkap dengan WiFi dan fasilitas pendukung."
 date: "2026-07-17"
 tags: ["Meeting Room", "Tebet", "Jakarta Selatan", "Diskusi Tim", "Rapat"]
-image: /static/thumbs/meeting-room-tebet.jpg
-featured_image: /static/thumbs/meeting-room-tebet.jpg
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
+featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
 canonical: "https://piccreativespace.id/meeting-room-tebet/"
 ---
 

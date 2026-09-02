@@ -3,8 +3,8 @@ title: "Daftar Harga Sewa Event Space PIC Creative Space Jakarta 2026 — The Sa
 description: "Update Juli 2026: cek harga sewa PIC Creative Space untuk The Sanctuary, The Dwelling, The Salt & Light beserta kapasitas, fasilitas, dan tips hemat booking event."
 date: "2026-07-18"
 tags: ["Harga", "Event Space", "Jakarta Selatan", "Venue", "Booking"]
-image: /static/thumbs/daftar-harga-sewa-event-space-piccs-2026.jpg
-featured_image: /static/thumbs/daftar-harga-sewa-event-space-piccs-2026.jpg
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
+featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
 canonical: "https://piccreativespace.id/detail-harga/"
 ---
 
