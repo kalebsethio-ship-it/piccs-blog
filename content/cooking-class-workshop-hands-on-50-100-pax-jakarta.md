@@ -3,7 +3,7 @@ title: "Cooking Class & Workshop Hands-On 50-100 Pax di Jakarta: Panduan Pilih V
 description: "Mau buat cooking class atau workshop hands-on 50-100 pax di Jakarta? Simak panduan lengkap memilih venue, mulai dari fasilitas wajib, layout, estimasi budget Juli 2026, sampai contoh hitungan biaya."
 date: "2026-08-25"
 tags: ["Cooking Class", "Workshop", "Jakarta", "Event Space", "Venue", "Hands-On"]
-image: "/static/thumbs/cooking-class-workshop-hands-on-50-100-pax-jakarta.jpg"
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9258.JPG"
 ---
 
 Tren kelas memasak dan workshop hands-on di Jakarta makin ramai. Baik untuk HR yang ingin pelatihan kualifikasi, komunitas kuliner yang butuh tempat praktik, maupun brand yang ingin event engagement — memilih venue yang benar-benar sesuai kebutuhan adalah kunci utama. Kalau kamu cari tempat untuk **cooking class 50-100 pax** atau workshop umum di Jakarta Selatan, ada banyak hal yang harus diperhitungkan: meja praktik, akses air, ventilasi, dan tentunya biaya sewa.

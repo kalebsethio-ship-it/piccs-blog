@@ -3,7 +3,7 @@ title: "Panduan Sewa Event Space untuk Dies Natalis / Acara Kampus di Jakarta Se
 description: "Musim dies natalis dan acara kampus lagi ramai? Simak panduan lengkap memilih event space di Jakarta Selatan, termasuk harga The Sanctuary Juli 2026 dan tips hemat untuk HUT kampus."
 date: "13 Aug 2026"
 tags: ["Dies Natalis", "Event Kampus", "Jakarta Selatan", "The Sanctuary", "Campus Event"]
-image: "/static/thumbs/panduan-sewa-event-space-dies-natalis-kampus-jakarta-selatan.jpg"
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9620.JPG"
 ---
 
 Musim akhir tahun bukan cuma soal liburan — untuk kamu yang aktif di kampus, ini adalah musim **dies natalis**, acara perayaan HUT, dan berbagai kegiatan organisasi yang butuh venue yang pas. Banyak mahasiswa dan panitia eventually nyari tempat yang nyaman, terjangkau, dan fasilitasnya lengkap. Kali ini kita bahas tuntas **cara memilih event space untuk acara kampus di Jakarta Selatan**, mulai dari kapasitas, harga terbaru Juli 2026, sampai tips hemat biaya.
