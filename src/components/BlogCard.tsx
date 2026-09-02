@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 interface Article {
   slug: string;
@@ -12,6 +11,14 @@ interface Article {
 }
 
 export default function BlogCard({ article, featured = false }: { article: Article; featured?: boolean }) {
+  const thumb = article.image ? (
+    <img src={article.image} alt={article.title} className="w-full h-full object-cover" loading="lazy" />
+  ) : (
+    <div className="flex items-center justify-center w-full h-full p-8">
+      <img src="/logo-piccs-white.png" alt="PIC Creative Space" className="w-full max-w-[140px] h-auto opacity-15" />
+    </div>
+  );
+
   if (featured) {
     return (
       <Link
@@ -19,24 +26,10 @@ export default function BlogCard({ article, featured = false }: { article: Artic
         className="blog-card group block bg-piccs-card border border-piccs-border rounded-2xl overflow-hidden"
       >
         <div className="grid md:grid-cols-5 gap-0">
-          {/* Thumbnail — 2 cols */}
           <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-gradient-to-br from-piccs-dark via-piccs-card to-piccs-black flex items-center justify-center min-h-[200px] md:min-h-[300px]">
-            {article.image ? (
-              <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover" unoptimized />
-            ) : (
-              <div className="flex items-center justify-center w-full h-full p-8">
-                <Image
-                  src="/logo-piccs-white.png"
-                  alt="PIC Creative Space"
-                  width={240}
-                  height={120}
-                  className="w-full max-w-[140px] h-auto opacity-15"
-                />
-              </div>
-            )}
+            {thumb}
           </div>
 
-          {/* Content — 3 cols */}
           <div className="md:col-span-3 p-6 sm:p-8 flex flex-col justify-center">
             <div className="flex flex-wrap gap-2 mb-3">
               {article.tags.slice(0, 3).map((tag) => (
@@ -73,24 +66,10 @@ export default function BlogCard({ article, featured = false }: { article: Artic
       href={`/${article.slug}`}
       className="blog-card group block bg-piccs-card border border-piccs-border rounded-2xl overflow-hidden"
     >
-      {/* Thumbnail */}
       <div className="aspect-[16/10] bg-gradient-to-br from-piccs-dark to-piccs-card flex items-center justify-center overflow-hidden">
-        {article.image ? (
-          <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
-        ) : (
-          <div className="flex items-center justify-center w-full h-full p-6">
-            <Image
-              src="/logo-piccs-white.png"
-              alt="PIC Creative Space"
-              width={200}
-              height={100}
-              className="w-full max-w-[100px] h-auto opacity-10"
-            />
-          </div>
-        )}
+        {thumb}
       </div>
 
-      {/* Content */}
       <div className="p-5">
         <div className="flex flex-wrap gap-1.5 mb-3">
           {article.tags.slice(0, 2).map((tag) => (
