@@ -1,8 +1,8 @@
 ---
 title: "Harga & Kapasitas Event Space Jakarta 2026: Breakdown Biaya Sewa untuk Gathering, Launching, dan Karaoke"
-description: "Update Juli 2026: cek harga dan kapasitas event space Jakarta, breakdown biaya untuk gathering, launching, karaoke/noraebang, dan cara hitung budget acara."
+description: "Breakdown harga & kapasitas event space Jakarta 2026 untuk gathering, launching, dan karaoke — lengkap perbandingan biaya per jam vs paket."
 date: "2026-08-04"
-tags: ["Harga", "Kapasitas", "Event Space", "Jakarta", "Gathering", "Launching", "Karaoke"]
+["Harga", "Kapasitas", "Event Space", "Jakarta", "Tips Booking"]
 image: /static/thumbs/harga-kapasitas-event-space-jakarta-2026-breakdown-biaya-gathering-launching-karaoke.jpg
 canonical: "https://piccreativespace.id/harga-kapasitas-event-space-jakarta-2026/"
 ---

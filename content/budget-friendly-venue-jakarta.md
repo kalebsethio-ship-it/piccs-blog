@@ -1,8 +1,8 @@
 ---
 title: "Budget Friendly Event Venue di Jakarta: Tips Sewa Tanpa Bikin Kantong Bolong"
-description: "Cari venue event di Jakarta tapi budget terbatas? Simak tips sewa event space murah tanpa mengorbankan kualitas dan kenyamanan acara kamu."
+description: "Budget friendly event venue di Jakarta: tips sewa venue murah tanpa bikin kantong bolong, cocok untuk gathering, workshop, dan acara komunitas."
 date: "12 Jul 2026"
-tags: ["Budget", "Tips", "Venue Murah", "Jakarta"]
+["Budget", "Venue Murah", "Jakarta", "Event Space", "Tips Booking"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_8248.JPG"
 ---
 
