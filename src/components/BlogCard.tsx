@@ -22,7 +22,7 @@ export default function BlogCard({ article, featured = false }: { article: Artic
           {/* Thumbnail — 2 cols */}
           <div className="md:col-span-2 aspect-[4/3] md:aspect-auto bg-gradient-to-br from-piccs-dark via-piccs-card to-piccs-black flex items-center justify-center min-h-[200px] md:min-h-[300px]">
             {article.image ? (
-              <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover" />
+              <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover" unoptimized />
             ) : (
               <div className="flex items-center justify-center w-full h-full p-8">
                 <Image
@@ -76,7 +76,7 @@ export default function BlogCard({ article, featured = false }: { article: Artic
       {/* Thumbnail */}
       <div className="aspect-[16/10] bg-gradient-to-br from-piccs-dark to-piccs-card flex items-center justify-center overflow-hidden">
         {article.image ? (
-          <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          <Image src={article.image} alt={article.title} width={1200} height={630} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" unoptimized />
         ) : (
           <div className="flex items-center justify-center w-full h-full p-6">
             <Image
