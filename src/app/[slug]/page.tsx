@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Image from "next/image";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { getArticleBySlug, getAllSlugs } from "@/lib/articles";
@@ -105,13 +104,10 @@ export default async function ArticlePage({ params }: Props) {
         {/* Featured Image */}
       {(meta as any).image || (meta as any).featured_image ? (
         <div className="mb-10 rounded-2xl overflow-hidden border border-piccs-border/50 relative w-full h-64 sm:h-80 md:h-96">
-          <Image
+          <img
             src={(meta as any).image || (meta as any).featured_image}
             alt={meta.title}
-            fill
-            sizes="100vw"
-            className="object-cover"
-            unoptimized
+            className="w-full h-full object-cover"
           />
         </div>
       ) : null}
