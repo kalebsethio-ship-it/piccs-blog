@@ -15,7 +15,7 @@ export default function BlogCard({ article, featured = false }: { article: Artic
     <img src={article.image} alt={article.title} className="w-full h-full object-cover" loading="lazy" />
   ) : (
     <div className="flex items-center justify-center w-full h-full p-8">
-      <img src="/logo-piccs-white.png" alt="PIC Creative Space" className="w-full max-w-[140px] h-auto opacity-15" />
+      <img src="/logo-piccs-white.jpg" alt="PIC Creative Space" className="w-full max-w-[140px] h-auto opacity-15" />
     </div>
   );
 

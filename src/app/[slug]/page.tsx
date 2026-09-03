@@ -71,7 +71,7 @@ export default async function ArticlePage({ params }: Props) {
       name: "PIC Creative Space",
       logo: {
         "@type": "ImageObject",
-        url: "https://blog.piccreativespace.id/logo-piccs-white.png",
+        url: "https://blog.piccreativespace.id/logo-piccs-white.jpg",
       },
     },
     mainEntityOfPage: {
@@ -153,7 +153,7 @@ export default async function ArticlePage({ params }: Props) {
       <div className="border-t border-piccs-border mt-12 pt-10">
         <div className="bg-piccs-card border border-piccs-border rounded-2xl p-6 sm:p-8 text-center">
           <img
-            src="/logo-piccs-inline.png"
+            src="/logo-piccs-inline.jpg"
             alt="PIC Creative Space"
             className="h-10 w-auto mx-auto mb-4 opacity-60"
           />
