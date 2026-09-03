@@ -2,7 +2,7 @@
 title: "Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib"
 description: "Panduan sewa event space Jakarta untuk 150-200 pax: 7 tips wajib, kapasitas venue, estimasi biaya, dan trik hemat untuk acara besar."
 date: "2026-07-30"
-["Event Space", "Jakarta Selatan", "150 Pax", "Venue Besar", "Tips Booking"]
+tags: ["Event Space", "Jakarta Selatan", "150 Pax", "Venue Besar", "Tips Booking"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
 canonical: "https://piccreativespace.id/venue"
 ---
