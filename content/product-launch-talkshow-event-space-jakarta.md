@@ -3,7 +3,7 @@ title: "Product Launch & Talkshow 100 Pax di Event Space Jakarta: Venue, Teknis 
 description: "Panduan lengkap sewa venue product launch & talkshow 100 orang di Jakarta. Dapatkan info kapasitas The Sanctuary, teknis panggung, alur acara, budget transparan, dan tren 2026 untuk peluncuran produk di PIC Creative Space."
 date: "2026-09-08"
 tags: ["Product Launch", "Talkshow", "Event Space", "Jakarta", "Venue", "Product Showcase"]
-image: "https://photos.piccreativespace.id/PERNAH%20DIPAKE%20UNTUK%20WEBSITE/PEOPLE%20AT%20PIC/_MG_9590.JPG"
+image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9233.JPG"
 ---
 
 Mau **peluncuran produk** atau **talkshow perusahaan** dengan 80–100 tamu, tapi masih bingung pilih venue yang tidak terlalu mahal dan justru terlalu formal? Di Jakarta, banyak brand kini memilih event space intim di sebohong lantai dasar punya keuntungan: biaya lebih terkontrol, setup fleksibel, dan suasana yang terasa *exclusive* tanpa harus sewa ballroom hotel bergrande rasio.
@@ -35,7 +35,7 @@ Untuk acara **100 orang**, [The Sanctuary](https://piccreativespace.id) (144,75 
 - **Layout theater** yang nyaman untuk menonton presentasi
 - **Layout cluster** tersedia bila butuh sesi breakout kecil
 
-![Talkshow di PIC Creative Space](https://photos.piccreativespace.id/PERNAH%20DIPAKE%20UNTUK%20WEBSITE/PEOPLE%20AT%20PIC/_MG_9590.JPG)
+![Talkshow & product launch setup di The Sanctuary](https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9235.JPG)
 
 Berikut peta ruang yang kami rekomendasikan untuk 100 tamu:
 
