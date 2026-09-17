@@ -22,9 +22,16 @@ export async function generateMetadata({ params }: Props) {
   return {
     title: meta.title,
     description: meta.description,
+    alternates: {
+      canonical: `/${slug}`,
+    },
     openGraph: {
       title: meta.title,
       description: meta.description,
+      url: `/${slug}`,
+      type: "article",
+      siteName: "PIC Creative Space",
+      locale: "id_ID",
       images: [
         {
           url: image,
@@ -54,30 +61,92 @@ export default async function ArticlePage({ params }: Props) {
 
   const { meta, content } = article;
 
+  const articleUrl = `https://blog.piccreativespace.id/${slug}`;
+
+  const articleImage =
+    (meta as any).image ||
+    (meta as any).featured_image ||
+    "https://piccreativespace.id/wp-content/uploads/2022/11/DSCF3550-1024x682.png";
+  const absImage = articleImage.startsWith("http")
+    ? articleImage
+    : `https://blog.piccreativespace.id${articleImage}`;
+
+  // frontmatter dates are human-readable ("17 Sep 2026"); schema.org wants ISO 8601
+  const toIso = (d: string) => {
+    const parsed = new Date(d);
+    return Number.isNaN(parsed.getTime()) ? d : parsed.toISOString();
+  };
+
+  const graph: Record<string, unknown>[] = [
+    {
+      "@type": "BlogPosting",
+      "@id": `${articleUrl}#article`,
+      headline: meta.title,
+      description: meta.description,
+      datePublished: toIso(meta.date),
+      dateModified: toIso(meta.date),
+      image: [absImage],
+      author: {
+        "@type": "Organization",
+        name: "PIC Creative Space",
+        url: "https://piccreativespace.id",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "PIC Creative Space",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://blog.piccreativespace.id/logo-piccs-white.jpg",
+        },
+      },
+      mainEntityOfPage: {
+        "@type": "WebPage",
+        "@id": articleUrl,
+      },
+      // ties the article to the venue entity declared site-wide in layout.tsx
+      about: { "@id": "https://piccreativespace.id/#venue" },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Blog",
+          item: "https://blog.piccreativespace.id",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: meta.title,
+          item: articleUrl,
+        },
+      ],
+    },
+  ];
+
+  // FAQPage is emitted ONLY when the article declares `faq:` in frontmatter.
+  // Question-shaped headings are deliberately NOT auto-converted: most of them
+  // are CTAs ("Siap Booking Event Space di Tebet?"), which would be fake FAQ
+  // markup and a structured-data violation.
+  if (meta.faq && meta.faq.length > 0) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${articleUrl}#faq`,
+      mainEntity: meta.faq.map((item) => ({
+        "@type": "Question",
+        name: item.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: item.a,
+        },
+      })),
+    });
+  }
+
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: meta.title,
-    description: meta.description,
-    datePublished: meta.date,
-    dateModified: meta.date,
-    author: {
-      "@type": "Organization",
-      name: "PIC Creative Space",
-      url: "https://piccreativespace.id",
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "PIC Creative Space",
-      logo: {
-        "@type": "ImageObject",
-        url: "https://blog.piccreativespace.id/logo-piccs-white.jpg",
-      },
-    },
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `https://blog.piccreativespace.id/${slug}`,
-    },
+    "@graph": graph,
   };
 
   return (

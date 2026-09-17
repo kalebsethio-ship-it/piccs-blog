@@ -2,6 +2,11 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
 export interface ArticleMeta {
   slug: string;
   title: string;
@@ -10,9 +15,27 @@ export interface ArticleMeta {
   tags: string[];
   readingTime: string;
   image?: string;
+  faq?: FaqItem[];
 }
 
 const contentDir = path.join(process.cwd(), 'content');
+
+/**
+ * Normalise the optional `faq:` frontmatter field.
+ * Only well-formed {q, a} entries survive — anything else is dropped so we
+ * never emit invalid FAQPage structured data.
+ */
+function normalizeFaq(raw: unknown): FaqItem[] | undefined {
+  if (!Array.isArray(raw)) return undefined;
+  const items = raw
+    .filter((x): x is Record<string, unknown> => !!x && typeof x === 'object')
+    .map((x) => ({
+      q: String((x.q ?? x.question ?? '')).trim(),
+      a: String((x.a ?? x.answer ?? '')).trim(),
+    }))
+    .filter((x) => x.q.length > 0 && x.a.length > 0);
+  return items.length > 0 ? items : undefined;
+}
 
 export function getAllArticles(): ArticleMeta[] {
   if (!fs.existsSync(contentDir)) return [];
@@ -31,6 +54,7 @@ export function getAllArticles(): ArticleMeta[] {
       tags: Array.isArray(data.tags) ? data.tags : [],
       readingTime: calculateReadingTime(raw),
       image: data.image || data.featured_image || null,
+      faq: normalizeFaq(data.faq),
     };
   });
 
@@ -56,6 +80,7 @@ export function getArticleBySlug(slug: string): { meta: ArticleMeta; content: st
       tags: Array.isArray(data.tags) ? data.tags : [],
       readingTime: calculateReadingTime(content),
       image: data.image || data.featured_image || null,
+      faq: normalizeFaq(data.faq),
     },
     content,
   };

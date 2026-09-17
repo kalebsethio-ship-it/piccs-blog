@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import BlogCard from "@/components/BlogCard";
 import { getAllArticles } from "@/lib/articles";
+
+// Homepage canonical. Deliberately only sets `alternates` so the layout's
+// title/description/openGraph stay intact (og:url now resolves via metadataBase).
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
   const articles = getAllArticles();
