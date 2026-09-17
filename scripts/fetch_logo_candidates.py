@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch candidate square PICCS logos from the main site and report their size."""
+"""Fetch additional PICCS logo candidates (PNG preferred — no JPEG artifacts)."""
 import os
 import urllib.request
 
@@ -7,12 +7,9 @@ OUT = "/home/kalebooo/piccs-logo-candidates"
 os.makedirs(OUT, exist_ok=True)
 
 CANDIDATES = [
-    "https://piccreativespace.id/wp-content/uploads/2025/07/cropped-SLIDE-LOGO-PICCS-NEW-270x270.jpg",
-    "https://piccreativespace.id/wp-content/uploads/2025/07/cropped-SLIDE-LOGO-PICCS-NEW-192x192.jpg",
-    "https://piccreativespace.id/wp-content/uploads/2025/07/SLIDE-LOGO-PICCS-NEW.jpg",
-    "https://piccreativespace.id/wp-content/uploads/2025/07/SLIDE-LOGO-PICCS-NEW.png",
-    "https://piccreativespace.id/wp-content/uploads/2025/07/SLIDE-LOGO-PICCS-NEW-scaled.jpg",
-    "https://piccreativespace.id/wp-content/uploads/2025/07/cropped-Untitled-design-33-1.png",
+    "https://piccreativespace.id/wp-content/uploads/2022/10/PIC-CS-logo-BOX.png",
+    "https://piccreativespace.id/wp-content/uploads/2025/07/cropped-SLIDE-LOGO-PICCS-NEW.jpg",
+    "https://piccreativespace.id/wp-content/uploads/2025/07/cropped-SLIDE-LOGO-PICCS-NEW-32x32.jpg",
 ]
 
 try:
@@ -29,16 +26,16 @@ for url in CANDIDATES:
             data = r.read()
         open(dest, "wb").write(data)
     except Exception as e:
-        print(f"  FAIL  {name:48} {e}")
+        print(f"  FAIL  {name:52} {e}")
         continue
 
-    dims = "?"
+    info = "?"
     if Image is not None:
         try:
             with Image.open(dest) as im:
                 w, h = im.size
                 ratio = round(w / h, 2) if h else 0
-                dims = f"{w}x{h} ratio={ratio} {'SQUARE' if 0.97 <= ratio <= 1.03 else 'NON-SQUARE'}"
+                info = f"{w}x{h} ratio={ratio} {'SQUARE' if 0.97 <= ratio <= 1.03 else 'NON-SQUARE'} mode={im.mode}"
         except Exception as e:
-            dims = f"ERR {e}"
-    print(f"  OK    {name:48} {len(data):>9,}B  {dims}  -> {dest}")
+            info = f"ERR {e}"
+    print(f"  OK    {name:52} {len(data):>9,}B  {info}")
