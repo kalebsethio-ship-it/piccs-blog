@@ -5,7 +5,6 @@ date: "2026-07-18"
 tags: ["Harga", "Event Space", "Jakarta Selatan", "Venue", "Booking"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
 featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
-canonical: "https://piccreativespace.id/detail-harga/"
 ---
 
 Mau bikin event di Jakarta Selatan tapi bingung mulai dari mana? Salah satu pertimbangan utama adalah **harga sewa event space**, karena budget jadi penentu utama apakah acara bisa berjalan lancar atau malah bikin pusing. Kali ini, kita bahas harga terbaru **[PIC Creative Space](https://piccreativespace.id)** untuk Juli 2026 — lengkap dengan ruangan, kapasitas, dan tips hemat booking.

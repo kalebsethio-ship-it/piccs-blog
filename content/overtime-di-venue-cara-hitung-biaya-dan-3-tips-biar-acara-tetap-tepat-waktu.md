@@ -4,7 +4,6 @@ description: "Overtime di venue sering bikin panik. Ini cara ngitung biaya overt
 date: "2026-09-01"
 tags: ["Overtime", "Event Space", "Jakarta Selatan", "Tips Event", "Venue", "Budget"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
-canonical: "https://piccreativespace.id/overtime-venue/"
 faq:
   - q: "Bagaimana cara hitung biaya overtime di PIC Creative Space?"
     a: "Overtime dihitung per jam penuh dari menit pertama. Kalau acara lewat 30 menit pun, kamu tetap bayar 1 jam penuh sesuai tarif normal ruangan yang disewa."

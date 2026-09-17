@@ -5,7 +5,6 @@ date: "2026-08-11"
 tags: ["Event Anak", "Pentas Seni", "Venue Jakarta", "Keluarga", "Booking Tips"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9229.JPG"
 featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/2025/_MG_9229.JPG"
-canonical: "https://piccreativespace.id/event-space-pentas-seni-anak-jakarta/"
 ---
 
 Mau adakan **pentas seni anak** di Jakarta tapi bingung cari venue yang sesuai? 

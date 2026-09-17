@@ -4,7 +4,6 @@ description: "Breakdown harga & kapasitas event space Jakarta 2026 untuk gatheri
 date: "2026-08-04"
 tags: ["Harga", "Kapasitas", "Event Space", "Jakarta", "Tips Booking"]
 image: /static/thumbs/harga-kapasitas-event-space-jakarta-2026-breakdown-biaya-gathering-launching-karaoke.jpg
-canonical: "https://piccreativespace.id/harga-kapasitas-event-space-jakarta-2026/"
 ---
 
 

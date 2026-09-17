@@ -5,7 +5,6 @@ date: "2026-07-16"
 category: "info-venue"
 tags: ["Event Space", "Fasilitas", "Jakarta Selatan", "The Sanctuary", "The Dwelling", "Salt & Light"]
 excerpt: "Mau sewa event space di Jakarta Selatan dengan fasilitas lengkap? PIC Creative Space punya 3 ruangan — The Sanctuary, The Dwelling, dan The Salt & Light — dengan sound system, proyektor, dan harga yang bersahabat."
-canonical: "https://piccreativespace.id/event-space-fasilitas-lengkap-jakarta-selatan/"
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_3944.JPG"
 featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_3944.JPG"
 ---

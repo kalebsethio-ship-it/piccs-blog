@@ -4,7 +4,6 @@ description: "Pilih ruang event Jakarta yang pas untuk workshop, private party, 
 date: "2026-07-28"
 tags: ["Event Space", "Jakarta Selatan", "Workshop", "Private Party", "Podcast", "Venue"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_3944.JPG"
-canonical: "https://piccreativespace.id/venue"
 ---
 
 

@@ -5,7 +5,6 @@ date: "2026-07-17"
 tags: ["Meeting Room", "Tebet", "Jakarta Selatan", "Diskusi Tim", "Rapat"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
 featured_image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
-canonical: "https://piccreativespace.id/meeting-room-tebet/"
 ---
 
 Mau ngadain **meeting kecil di Tebet** yang nyaman dan focus? Kalau cuma butuh ruang buat 8-16 orang, booking venue besar malah boros. Saatnya coba **meeting room** yang dirancang buat diskusi tim, rapat kantor, atau sesi podcast 1-on-1.

@@ -4,7 +4,6 @@ description: "Panduan survey dan transparansi harga sewa event space di Jakarta 
 date: "2026-07-21"
 tags: ["Survey", "Harga", "Event Space", "Jakarta Selatan", "Booking Tips"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_9162.JPG"
-canonical: "https://piccreativespace.id/survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan/"
 ---
 
 Mau sewa **event space di Jakarta Selatan** tapi takut ada biaya tambahan yang tidak diinginkan? Salah satu alasan utama leads ragu booking adalah kurangnya transparansi tentang **survey**, **harga sewa**, **DP/pelunasan**, sampai biaya **overtime**. Di artikel ini, kita kupas tuntas supaya kamu bisa book event dengan tenang dan tanpa kejutan biaya.
