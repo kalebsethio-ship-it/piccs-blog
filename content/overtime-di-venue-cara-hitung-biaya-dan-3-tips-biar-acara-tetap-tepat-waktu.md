@@ -5,6 +5,13 @@ date: "2026-09-01"
 tags: ["Overtime", "Event Space", "Jakarta Selatan", "Tips Event", "Venue", "Budget"]
 image: "https://photos.piccreativespace.id/PHOTO%20SETTINGAN%20RUANGAN/_MG_0876.JPG"
 canonical: "https://piccreativespace.id/overtime-venue/"
+faq:
+  - q: "Bagaimana cara hitung biaya overtime di PIC Creative Space?"
+    a: "Overtime dihitung per jam penuh dari menit pertama. Kalau acara lewat 30 menit pun, kamu tetap bayar 1 jam penuh sesuai tarif normal ruangan yang disewa."
+  - q: "Berapa harga overtime per jam?"
+    a: "Tarif overtime sama dengan tarif normal per jam ruangan. The Sanctuary Rp 1.900.000/jam, The Dwelling Rp 800.000/jam, The Salt Rp 500.000/jam, The Light Rp 550.000/jam, Salt & Light Rp 750.000/jam."
+  - q: "Apa yang terjadi kalau melewati batas booking?"
+    a: "Biaya overtime otomatis berlaku per jam dari menit pertama, dan tidak bisa digabung dengan promo atau diskon apa pun."
 ---
 
 Salah satu pertanyaan paling banyak muncul di WhatsApp kami setelah lead melakukan survey? **Pertanyaan soal overtime.** Beberapa contoh pertanyaan nyata dari calon penyewa:
