@@ -65,7 +65,7 @@ Untuk estimasi, lihat tabel harga per jam Juli 2026:
 | The Light | 8 pax | Rp 550.000 |
 | Salt & Light (gabung) | 16 pax | Rp 750.000 |
 
-Cara hitung lengkapnya ada di artikel [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tepat-waktu).
+Cara hitung lengkapnya ada di artikel [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tetap-tepat-waktu).
 
 ## 5. Pastikan Penyediaan Minuman dan Catering
 

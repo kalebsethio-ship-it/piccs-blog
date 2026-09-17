@@ -91,7 +91,7 @@ Untuk event kombinasi seperti talkshow plus pameran kecil, baca juga artikel [pi
 ## 7. Tips Hemat untuk Event Perusahaan
 
 1. **Pilih weekday** untuk tarif lebih bersahabat dibanding weekend.
-2. **Batasi durasi** secukupnya supaya nggak kena overtime — hitungannya ada di [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tepat-waktu).
+2. **Batasi durasi** secukupnya supaya nggak kena overtime — hitungannya ada di [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tetap-tepat-waktu).
 3. **Bundling kebutuhan:** pakai fasilitas bawaan daripada sewa vendor tambahan.
 4. **Survey terlebih dahulu:** hindari biaya tak terduga di hari-H.
 

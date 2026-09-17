@@ -76,7 +76,7 @@ Wajib. Technical Meeting berdurasi 1 jam (onsite atau online) dan biasanya dilak
 
 ## Tips Sebelum Booking
 
-1. **Tentukan durasi akurat.** Hitung juga waktu setup dan cleanup biar nggak kena overtime — hitungannya bisa kamu cek di [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tepat-waktu).
+1. **Tentukan durasi akurat.** Hitung juga waktu setup dan cleanup biar nggak kena overtime — hitungannya bisa kamu cek di [overtime di venue](/overtime-di-venue-cara-hitung-biaya-dan-3-tips-biar-acara-tetap-tepat-waktu).
 2. **List kebutuhan teknis.** Mic, HDMI, livestream, atau katering khusus.
 3. **Survey dulu.** Jangan langsung bayar sebelum lihat venue secara langsung.
 4. **Tanya paket khusus.** Untuk booking berulang atau acara panjang, ada opsi tarif khusus.
