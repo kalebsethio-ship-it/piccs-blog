@@ -79,6 +79,7 @@ async function pickPhotoFor(slug, title, tags) {
     'pilih-ruang-event-jakarta-sesuai-format': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/2025/_MG_8590.JPG',
     'event-space-fasilitas-lengkap-jakarta-selatan': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/_MG_9401.JPG',
     'ide-gathering-seru-jakarta': '/home/kalebooo/piccs-photos/DEKOR WEDDING 2025/_MG_1074.JPG',
+    'sewa-event-space-half-day-vs-full-day': '/home/kalebooo/piccs-photos/PHOTO SETTINGAN RUANGAN/_MG_0217.JPG',
   };
   if (slugMap[slug] && fs.existsSync(slugMap[slug])) return slugMap[slug];
 
@@ -127,6 +128,7 @@ async function makeThumb(sourceUrl, outPath) {
     { slug: 'sewa-event-space-jakarta-150-200-pax', title: 'Sewa Event Space Jakarta untuk 150-200 Pax: 7 Tips Wajib', tags: ['Event Space','Jakarta Selatan','Corporate Event','Venue','PICCS'] },
     { slug: 'survey-dan-transparansi-harga-sewa-event-space-jakarta-selatan', title: 'Survey dan Transparansi Harga Sewa Event Space Jakarta Selatan — Tips Before Booking 2026', tags: ['Survey','Harga','Event Space','Jakarta Selatan','Booking Tips'] },
     { slug: 'panduan-sewa-event-space-dies-natalis-kampus-jakarta-selatan', title: 'Panduan Sewa Event Space untuk Dies Natalis / Acara Kampus di Jakarta Selatan', tags: ['Dies Natalis','Event Kampus','Jakarta Selatan','The Sanctuary','Campus Event'] },
+    { slug: 'sewa-event-space-half-day-vs-full-day', title: 'Sewa Event Space Half-Day vs Full-Day di Jakarta: Mana yang Cocok & Apa Saja Include-nya?', tags: ['Harga','Event Space','Jakarta Selatan','Booking','Tips Event'] },
   ];
 
   for (const a of articles) {
